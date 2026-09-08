@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MySite | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +24,9 @@
         </div>
     </nav>
     <section class="hero">
+        <div class="hero-particles" id="particles"></div>
         <div class="hero-content">
+            <div class="hero-badge">Digital Agency</div>
             <h1 class="hero-title">We Build <span class="highlight">Digital Experiences</span></h1>
             <p class="hero-subtitle">Creative solutions for modern problems. We design and develop websites that stand out.</p>
             <div class="hero-buttons">
@@ -33,33 +38,19 @@
             <div class="shape shape-1"></div>
             <div class="shape shape-2"></div>
             <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
         </div>
+        <div class="hero-glow"></div>
     </section>
     <section class="features">
         <div class="container">
             <h2 class="section-title">What We Do</h2>
             <p class="section-subtitle">We bring ideas to life with clean code and creative design.</p>
             <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">&#128187;</div>
-                    <h3>Web Development</h3>
-                    <p>Fast, responsive websites built with modern technologies and best practices.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">&#127912;</div>
-                    <h3>UI/UX Design</h3>
-                    <p>Beautiful interfaces designed with the user experience as the top priority.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">&#128241;</div>
-                    <h3>Mobile First</h3>
-                    <p>Every project is designed to work perfectly on all screen sizes and devices.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">&#9889;</div>
-                    <h3>Performance</h3>
-                    <p>Optimized for speed so your visitors never have to wait.</p>
-                </div>
+                <div class="feature-card"><div class="feature-icon">&#128187;</div><h3>Web Development</h3><p>Fast, responsive websites built with modern technologies and best practices.</p></div>
+                <div class="feature-card"><div class="feature-icon">&#127912;</div><h3>UI/UX Design</h3><p>Beautiful interfaces designed with the user experience as the top priority.</p></div>
+                <div class="feature-card"><div class="feature-icon">&#128241;</div><h3>Mobile First</h3><p>Every project is designed to work perfectly on all screen sizes and devices.</p></div>
+                <div class="feature-card"><div class="feature-icon">&#9889;</div><h3>Performance</h3><p>Optimized for speed so your visitors never have to wait.</p></div>
             </div>
         </div>
     </section>
@@ -75,36 +66,14 @@
         <div class="container">
             <h2 class="section-title">What Clients Say</h2>
             <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"Outstanding work! They delivered a website that exceeded our expectations. Highly recommended."</p>
-                    <div class="testimonial-author"><div class="author-avatar">JD</div><div><strong>Jane Doe</strong><span>CEO, TechCorp</span></div></div>
-                </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"Professional, creative, and always on time. Our new site has doubled our online presence."</p>
-                    <div class="testimonial-author"><div class="author-avatar">MS</div><div><strong>Mark Smith</strong><span>Founder, StartupHub</span></div></div>
-                </div>
-                <div class="testimonial-card">
-                    <p class="testimonial-text">"The attention to detail is incredible. They truly understand what makes a great website."</p>
-                    <div class="testimonial-author"><div class="author-avatar">AL</div><div><strong>Amy Lee</strong><span>Director, CreativeCo</span></div></div>
-                </div>
+                <div class="testimonial-card"><p class="testimonial-text">"Outstanding work! They delivered a website that exceeded our expectations. Highly recommended."</p><div class="testimonial-author"><div class="author-avatar">JD</div><div><strong>Jane Doe</strong><span>CEO, TechCorp</span></div></div></div>
+                <div class="testimonial-card"><p class="testimonial-text">"Professional, creative, and always on time. Our new site has doubled our online presence."</p><div class="testimonial-author"><div class="author-avatar">MS</div><div><strong>Mark Smith</strong><span>Founder, StartupHub</span></div></div></div>
+                <div class="testimonial-card"><p class="testimonial-text">"The attention to detail is incredible. They truly understand what makes a great website."</p><div class="testimonial-author"><div class="author-avatar">AL</div><div><strong>Amy Lee</strong><span>Director, CreativeCo</span></div></div></div>
             </div>
         </div>
     </section>
-    <section class="cta">
-        <div class="container">
-            <h2>Ready to Start Your Project?</h2>
-            <p>Let's work together to create something amazing.</p>
-            <a href="contact.html" class="btn btn-primary">Start a Project</a>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-col"><h3>My<span>Site</span></h3><p>Building digital experiences that make a difference.</p></div>
-            <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
-            <div class="footer-col"><h4>Contact</h4><ul><li>hello@mysite.com</li><li>+1 (555) 123-4567</li><li>123 Web Street, Internet City</li></ul></div>
-        </div>
-        <div class="footer-bottom"><p>&copy; 2026 MySite. All rights reserved.</p></div>
-    </footer>
+    <section class="cta"><div class="container"><h2>Ready to Start Your Project?</h2><p>Let's work together to create something amazing.</p><a href="contact.html" class="btn btn-primary">Start a Project</a></div></section>
+    <footer class="footer"><div class="container footer-grid"><div class="footer-col"><h3>My<span>Site</span></h3><p>Building digital experiences that make a difference.</p></div><div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li></ul></div><div class="footer-col"><h4>Contact</h4><ul><li>hello@mysite.com</li><li>+1 (555) 123-4567</li><li>123 Web Street, Internet City</li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 MySite. All rights reserved.</p></div></footer>
     <script src="main.js"></script>
 </body>
 </html>
