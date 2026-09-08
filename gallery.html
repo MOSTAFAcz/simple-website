@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySite | Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">My<span>Site</span></a>
+            <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html" class="btn-nav">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="page-header"><div class="container"><h1>Our Work</h1><p>A showcase of projects we're proud of.</p></div></section>
+    <section class="gallery">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Design</button>
+                <button class="filter-btn" data-filter="brand">Branding</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="web"><div class="gallery-thumb" style="background-color:#6c5ce7;"><span>&#128188;</span></div><div class="gallery-overlay"><h4>Corporate Portal</h4><p>Web Design</p></div></div>
+                <div class="gallery-item" data-category="app"><div class="gallery-thumb" style="background-color:#e94560;"><span>&#128241;</span></div><div class="gallery-overlay"><h4>Health Tracker App</h4><p>App Design</p></div></div>
+                <div class="gallery-item" data-category="brand"><div class="gallery-thumb" style="background-color:#00b894;"><span>&#127912;</span></div><div class="gallery-overlay"><h4>EcoBrand Identity</h4><p>Branding</p></div></div>
+                <div class="gallery-item" data-category="web"><div class="gallery-thumb" style="background-color:#fdcb6e;"><span>&#128722;</span></div><div class="gallery-overlay"><h4>E-Commerce Platform</h4><p>Web Design</p></div></div>
+                <div class="gallery-item" data-category="app"><div class="gallery-thumb" style="background-color:#0984e3;"><span>&#128640;</span></div><div class="gallery-overlay"><h4>Finance Dashboard</h4><p>App Design</p></div></div>
+                <div class="gallery-item" data-category="brand"><div class="gallery-thumb" style="background-color:#a29bfe;"><span>&#9733;</span></div><div class="gallery-overlay"><h4>StarEvents Branding</h4><p>Branding</p></div></div>
+                <div class="gallery-item" data-category="web"><div class="gallery-thumb" style="background-color:#55a3e8;"><span>&#128218;</span></div><div class="gallery-overlay"><h4>Learning Platform</h4><p>Web Design</p></div></div>
+                <div class="gallery-item" data-category="app"><div class="gallery-thumb" style="background-color:#e17055;"><span>&#127925;</span></div><div class="gallery-overlay"><h4>Music Stream App</h4><p>App Design</p></div></div>
+                <div class="gallery-item" data-category="brand"><div class="gallery-thumb" style="background-color:#00cec9;"><span>&#127752;</span></div><div class="gallery-overlay"><h4>TravelCo Rebrand</h4><p>Branding</p></div></div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col"><h3>My<span>Site</span></h3><p>Building digital experiences that make a difference.</p></div>
+            <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="services.html">Services</a></li><li><a href="gallery.html">Gallery</a></li></ul></div>
+            <div class="footer-col"><h4>Contact</h4><ul><li>hello@mysite.com</li><li>+1 (555) 123-4657</li><li>123 Web Street, Internet City</li></ul></div>
+        </div>
+        <div class="footer-bottom"><p>&copy; 2026 MySite. All rights reserved.</p></div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
